@@ -5,13 +5,10 @@ Ensure you have named the application well (e.g. “PrintMyName”).*/
 
 using System;
 
-namespace _05.PrintYourName
+class PrintYourName
 {
-    class PrintYourName
+    static void Main()
     {
-        static void Main()
-        {
-            Console.WriteLine("My name is ...");
-        }
+        Console.WriteLine("My name is ...");
     }
 }

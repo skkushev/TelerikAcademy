@@ -5,17 +5,14 @@ You might need to learn how to use loops in C# (search in Internet).*/
 
 using System;
 
-namespace _16.PrintLongSequence
+class PrintLongSequence
 {
-    class PrintLongSequence
+    static void Main()
     {
-        static void Main()
+        for (int i = 2; i <= 1000; )
         {
-            for (int i = 2; i <= 1000; )
-            {
-                Console.WriteLine(i++);
-                Console.WriteLine(-i++);
-            }
+            Console.WriteLine(i++);
+            Console.WriteLine(-i++);
         }
     }
 }

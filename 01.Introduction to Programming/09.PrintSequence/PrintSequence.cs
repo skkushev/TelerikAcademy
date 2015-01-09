@@ -4,17 +4,14 @@ Write a program that prints the first 10 members of the sequence: 2, -3, 4, -5, 
 
 using System;
 
-namespace _09.PrintSequence
+class PrintSequence
 {
-    class PrintSequence
+    static void Main()
     {
-        static void Main()
+        for (int i = 2; i <= 10; )
         {
-            for (int i = 2; i <= 10;)
-            {
-                Console.WriteLine(i++);
-                Console.WriteLine(-i++);
-            }
+            Console.WriteLine(i++);
+            Console.WriteLine(-i++);
         }
     }
 }

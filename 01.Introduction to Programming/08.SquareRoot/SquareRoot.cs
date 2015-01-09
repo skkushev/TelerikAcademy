@@ -5,13 +5,10 @@ Find in Internet “how to calculate square root in C#”.*/
 
 using System;
 
-namespace _08.SquareRoot
+class SquareRoot
 {
-    class SquareRoot
+    static void Main()
     {
-        static void Main()
-        {
-            Console.WriteLine(Math.Sqrt(12345));
-        }
+        Console.WriteLine(Math.Sqrt(12345));
     }
 }

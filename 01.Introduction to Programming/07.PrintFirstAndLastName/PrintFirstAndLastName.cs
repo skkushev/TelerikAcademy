@@ -4,14 +4,11 @@ Create console application that prints your first and last name, each at a separ
 
 using System;
 
-namespace _07.PrintFirstAndLastName
+class PrintFirstAndLastName
 {
-    class PrintFirstAndLastName
+    static void Main()
     {
-        static void Main()
-        {
-            Console.WriteLine("First Name");
-            Console.WriteLine("Last Name");
-        }
+        Console.WriteLine("First Name");
+        Console.WriteLine("Last Name");
     }
 }

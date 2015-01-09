@@ -5,15 +5,12 @@ Name the program correctly.*/
 
 using System;
 
-namespace _06.PrintNumbers
+class PrintNumbers
 {
-    class PrintNumbers
+    static void Main()
     {
-        static void Main()
-        {
-            Console.WriteLine("1");
-            Console.WriteLine("101");
-            Console.WriteLine("1001");
-        }
+        Console.WriteLine("1");
+        Console.WriteLine("101");
+        Console.WriteLine("1001");
     }
 }
