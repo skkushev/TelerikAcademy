@@ -19,6 +19,6 @@ class DeclareVariables
         ushort fourthNumber = 52130;
         Console.WriteLine("For number {0} we can use ushort date type (range from 0 to 65535)", fourthNumber);
         int fifthNumber = 4825932;
-        Console.WriteLine("For number {0} we can use int date type (range from 0 to 65535)", fifthNumber);
+        Console.WriteLine("For number {0} we can use int date type (range from -2147483648 to 2147483647)", fifthNumber);
     }
 }
