@@ -13,7 +13,8 @@ class FloatOrDouble
         Console.WriteLine("For number {0} we can use float", firstNumber);
         float secondNumber = 3456.091F;
         Console.WriteLine("For number {0} we can use float", secondNumber);
-        double thirdNumber = 8923.1234857D;
+        //by default, a real numeric literal on the right side of the assignment operator is treated as double, so its not necessary to right d or D.
+        double thirdNumber = 8923.1234857;
         Console.WriteLine("For number {0} we can use double", thirdNumber);
         double fourthNumber = 34.567839023;
         Console.WriteLine("For number {0} we can use double", fourthNumber);
