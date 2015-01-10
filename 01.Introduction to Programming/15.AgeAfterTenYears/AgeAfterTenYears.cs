@@ -9,11 +9,11 @@ class AgeAfterTenYears
     static void Main()
     {
         Console.Write("Enter your birthday in format dd.mm.yyyy: ");
-        DateTime birthdate = DateTime.Parse(Console.ReadLine());
-        DateTime timenow = DateTime.Now;
-        int agenow = timenow.Year - birthdate.Year;
-        if (DateTime.Now.AddYears(-agenow) < birthdate) --agenow;
-        Console.WriteLine("Now you are on {0}", agenow);
-        Console.WriteLine("After ten years you'll be {0}", agenow + 10);
+        DateTime birthdDate = DateTime.Parse(Console.ReadLine());
+        DateTime timeNow = DateTime.Now;
+        int ageNow = timeNow.Year - birthdDate.Year;
+        if (DateTime.Now.AddYears(-ageNow) < birthdDate) --ageNow;
+        Console.WriteLine("Now you are on {0}", ageNow);
+        Console.WriteLine("After ten years you'll be {0}", ageNow + 10);
     }
 }
