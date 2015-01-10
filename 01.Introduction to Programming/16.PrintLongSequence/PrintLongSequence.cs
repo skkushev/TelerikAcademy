@@ -9,10 +9,16 @@ class PrintLongSequence
 {
     static void Main()
     {
-        for (int i = 2; i <= 1000; )
+        for (int i = 2; i <= 1000; i++)
         {
-            Console.WriteLine(i++);
-            Console.WriteLine(-i++);
+            if (i % 2 == 0)
+            {
+                Console.Write(i + ",");
+            }
+            else 
+            {
+                Console.Write(-i + ",");
+            }
         }
     }
 }
