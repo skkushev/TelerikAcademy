@@ -9,9 +9,10 @@ class VariableInHexadecimalFormat
 {
     static void Main()
     {
+        //Im using Console.WriteLine(name.ToString("X")); to find the representation
         int value = 254;
         Console.WriteLine(value.ToString("X"));
         int symbol = 0xFE;
-        Console.WriteLine("FE in decimal is {0}", symbol);
+        Console.WriteLine("0xFE in decimal is {0}", symbol);
     }
 }
