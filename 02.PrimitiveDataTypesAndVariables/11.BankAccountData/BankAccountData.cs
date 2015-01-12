@@ -9,7 +9,8 @@ class BankAccountData
 {
     static void Main()
     {
-        Console.WriteLine("Welcome to Poor Bulgarian BANK (PBB) 1.0v");
+        DateTime date = DateTime.Now;
+        Console.WriteLine("Welcome to Poor Bulgarian BANK (PBB) 1.0v | {0}", date);
         Console.WriteLine("----------------------------------------");
         Console.Write("Please enter your username:");
         string userName = Console.ReadLine();
