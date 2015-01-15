@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OddOrEvenIntegers", "01.OddOrEvenIntegers\01.OddOrEvenIntegers.csproj", "{6808E66E-FCC6-4B75-8D37-9CC1F93B5556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GravitationOnTheMoon", "02.GravitationOnTheMoon\02.GravitationOnTheMoon.csproj", "{BB5BA805-98C9-4475-A579-1DE0FECA805A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DivideBy7And5", "03.DivideBy7And5\03.DivideBy7And5.csproj", "{AB4B1386-DD34-487F-9C39-4FF5D2D8384B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Rectangles", "04.Rectangles\04.Rectangles.csproj", "{B2F39FFB-AB13-4A8E-B432-9816C74F2F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6808E66E-FCC6-4B75-8D37-9CC1F93B5556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6808E66E-FCC6-4B75-8D37-9CC1F93B5556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6808E66E-FCC6-4B75-8D37-9CC1F93B5556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6808E66E-FCC6-4B75-8D37-9CC1F93B5556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5BA805-98C9-4475-A579-1DE0FECA805A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5BA805-98C9-4475-A579-1DE0FECA805A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5BA805-98C9-4475-A579-1DE0FECA805A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5BA805-98C9-4475-A579-1DE0FECA805A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4B1386-DD34-487F-9C39-4FF5D2D8384B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4B1386-DD34-487F-9C39-4FF5D2D8384B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4B1386-DD34-487F-9C39-4FF5D2D8384B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4B1386-DD34-487F-9C39-4FF5D2D8384B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F39FFB-AB13-4A8E-B432-9816C74F2F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F39FFB-AB13-4A8E-B432-9816C74F2F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F39FFB-AB13-4A8E-B432-9816C74F2F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F39FFB-AB13-4A8E-B432-9816C74F2F67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
