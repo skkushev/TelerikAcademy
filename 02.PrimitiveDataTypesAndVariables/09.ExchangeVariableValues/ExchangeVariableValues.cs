@@ -11,11 +11,11 @@ class ExchangeVariableValues
     {
         int a = 5;
         int b = 10;
+        Console.WriteLine("Values before exchange: a = {0} and b = {1}", a, b);
         a = a + b;
         b = a - b;
         a = a - b;
-        Console.WriteLine(a);
-        Console.WriteLine(b);
+        Console.WriteLine("Values after exchange: a = {0} and b = {1}", a, b);
     }
 }
 

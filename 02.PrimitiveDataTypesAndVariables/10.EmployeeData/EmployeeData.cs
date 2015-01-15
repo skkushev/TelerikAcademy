@@ -14,8 +14,7 @@ class EmployeeData
         Console.Write("Hello, please enter your First and Last name: ");
         string firstLastName = Console.ReadLine();
         Console.Write("How old are you (0 to 100)?: ");
-        string inputAge = Console.ReadLine();
-        byte ages = byte.Parse(inputAge);
+        byte ages = byte.Parse(Console.ReadLine());
         if (ages > 100)
         {
             Console.WriteLine("Hello turtle! Try again :)");
@@ -37,8 +36,7 @@ class EmployeeData
             return;
         }
         Console.Write("Enter your ID number (e.g. 8306112507)!: ");
-        string inputIdNumber = Console.ReadLine();
-        long idNumber = long.Parse(inputIdNumber);
+        long idNumber = long.Parse(Console.ReadLine());
         Console.WriteLine("You are {0}, {1} years old, {2}, ID NUMBER: {3}", firstLastName, ages, gender, idNumber);
         Console.WriteLine("You have successfully registered in the system!");
         Console.WriteLine("Press any key to recive unique number...");
