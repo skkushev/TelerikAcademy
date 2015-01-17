@@ -18,9 +18,9 @@ class BitwiseExtractBit3
 {
     static void Main()
     {
-        Console.Write("Enter uint: ");
+        Console.Write("Enter integer number: ");
         uint number = uint.Parse(Console.ReadLine());
         byte bitPosition = (byte)((number >> 3) & 1);
-        Console.WriteLine("Bit at #3 is " + bitPosition);
+        Console.WriteLine("Bit #3 in integer number {0} is {1}",number, bitPosition);
     }
 }
