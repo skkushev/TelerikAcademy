@@ -17,11 +17,18 @@ class ModifyBitAtGivenPosition
 {
     static void Main()
     {
+
         Console.Write("Enter integer number: ");
-        ushort numberN = ushort.Parse(Console.ReadLine());
-        Console.Write("Enter bit position: ");
-        byte bitPosition = byte.Parse(Console.ReadLine());
-        Console.Write("Enter bit value: ");
+        int numberN = int.Parse(Console.ReadLine());
+        Console.Write("Which bit possition would you like to modify to ?: ");
+        int bitPosition = int.Parse(Console.ReadLine());
+        Console.Write("Enter bit value (0 or 1): ");
         byte bitValue = byte.Parse(Console.ReadLine());
+   
+        int mask = bitValue << bitPosition;
+        int result = numberN ^ mask;
+        Console.WriteLine("This is what your number looks like in binary: " + Convert.ToString(numberN, 2).PadLeft(16, '0'));
+        Console.WriteLine("This is the bit's value: " + Convert.ToString(result, 2).PadLeft(16, '0'));
+        Console.WriteLine(result);
     }
 }
