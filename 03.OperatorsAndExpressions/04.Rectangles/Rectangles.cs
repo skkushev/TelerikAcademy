@@ -18,12 +18,9 @@ class Rectangles
         double width = double.Parse(Console.ReadLine());
         Console.WriteLine("Please enter height: ");
         double height = double.Parse(Console.ReadLine());
-        //Second way
         double perimeter = 2 * (width + height);
         double area = width * height;
         Console.WriteLine("The perimeter is " + perimeter + " and the area is " + area);
-        //Second way
-        Console.WriteLine("Perimeter = " + 2 * (width + height) + ". Area = " + (width * height) + ".");
     }
 }
 
