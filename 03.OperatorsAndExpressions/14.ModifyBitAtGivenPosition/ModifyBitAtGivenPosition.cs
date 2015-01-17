@@ -19,15 +19,22 @@ class ModifyBitAtGivenPosition
     {
 
         Console.Write("Enter integer number: ");
-        int numberN = int.Parse(Console.ReadLine());
+        ushort numberN = ushort.Parse(Console.ReadLine());
         Console.Write("Which bit possition would you like to modify to ?: ");
-        int bitPosition = int.Parse(Console.ReadLine());
+        byte bitPosition = byte.Parse(Console.ReadLine());
         Console.Write("Enter bit value (0 or 1): ");
         byte bitValue = byte.Parse(Console.ReadLine());
-   
-        int mask = bitValue << bitPosition;
-        int result = numberN ^ mask;
-        Console.WriteLine("This is what your number looks like in binary: " + Convert.ToString(numberN, 2).PadLeft(16, '0'));
+        int mask = 1 << bitPosition;
+        int result;
+        if (bitValue == 1)
+        {
+            result = numberN | mask;
+        }
+        else 
+        {
+            result = numberN ^ mask;
+        }
+        Console.WriteLine("This is how your number {0} looks in binary:{1} ", numberN, Convert.ToString(numberN, 2).PadLeft(16, '0'));
         Console.WriteLine("This is the bit's value: " + Convert.ToString(result, 2).PadLeft(16, '0'));
         Console.WriteLine(result);
     }
