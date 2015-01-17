@@ -17,10 +17,10 @@ class CheckBitAtGivenPosition
     static void Main()
     {
         Console.Write("Enter integer number: ");
-        ushort integerN = ushort.Parse(Console.ReadLine());
+        ushort numberN = ushort.Parse(Console.ReadLine());
         Console.Write("Enter bit position: ");
         byte bitPosition = byte.Parse(Console.ReadLine());
-        byte result = (byte)((integerN >> bitPosition) & 1);
+        byte result = (byte)((numberN >> bitPosition) & 1);
         bool trueOrFalse = (result == 1);
         Console.WriteLine(trueOrFalse);
     }
