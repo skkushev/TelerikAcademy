@@ -24,18 +24,21 @@ class ModifyBitAtGivenPosition
         byte bitPosition = byte.Parse(Console.ReadLine());
         Console.Write("Enter bit value (0 or 1): ");
         byte bitValue = byte.Parse(Console.ReadLine());
-        int mask = 1 << bitPosition;
+        int mask;
         int result;
         if (bitValue == 1)
         {
+            mask = 1 << bitPosition;
             result = numberN | mask;
         }
         else 
         {
-            result = numberN ^ mask;
+            mask = ~(1 << bitPosition);
+            result = (numberN & mask);
         }
-        Console.WriteLine("This is how your number {0} looks in binary:{1} ", numberN, Convert.ToString(numberN, 2).PadLeft(16, '0'));
-        Console.WriteLine("This is the bit's value: " + Convert.ToString(result, 2).PadLeft(16, '0'));
-        Console.WriteLine(result);
+        Console.WriteLine("Binay representation             : {0}", Convert.ToString(numberN, 2).PadLeft(32, '0'));
+        Console.WriteLine("Mask                             : {0}", Convert.ToString(mask, 2).PadLeft(32, '0'));
+        Console.WriteLine("Binary representation result is  : {0}", Convert.ToString(result, 2).PadLeft(32, '0'));
+        Console.WriteLine("The result is ---> {0}", result);      
     }
 }
