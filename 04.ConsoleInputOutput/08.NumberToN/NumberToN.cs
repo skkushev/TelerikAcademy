@@ -18,15 +18,15 @@ input	output
 
 using System;
 
-    class NumberToN
+class NumberToN
+{
+    static void Main()
     {
-        static void Main()
+        Console.Write("Enter number: ");
+        int number = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= number; i++)
         {
-            Console.Write("Enter number: ");
-            int number = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= number; i++)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine(i);
         }
     }
+}
