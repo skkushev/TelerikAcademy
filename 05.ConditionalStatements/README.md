@@ -138,7 +138,7 @@ time	result
 02:59 AM	beer time
 03:00 AM	non-beer time
 03:26 AM	non-beer time
-Problem 11.* Number as Words
+##Problem 11.* Number as Words
 
 Write a program that converts a number in the range [0…999] to words, corresponding to the English pronunciation.
 Examples:
